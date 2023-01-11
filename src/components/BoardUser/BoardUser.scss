@@ -1,0 +1,25 @@
+.boarduser__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .boardsuser__card {
+        padding: 20px;
+        width: 400px;
+        min-height: 400px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid var(--border-color);
+        p {
+            font-size: 14px;
+            font-weight: 600;
+            display: block;
+            margin: 10px 0;
+            span {
+                color: var(--border-color);
+                font-weight: 700;
+            }
+        }
+    }
+}
